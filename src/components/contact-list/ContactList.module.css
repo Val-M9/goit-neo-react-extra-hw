@@ -1,0 +1,33 @@
+.contactList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.item {
+  max-width: 350px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .item {
+    width: calc(50% - 30px);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .item {
+    width: calc(33.33% - 30px);
+  }
+}
+
+.noContacts {
+  margin-top: 30px;
+  color: brown;
+}
+
+.errorMessage {
+  margin-top: 30px;
+  color: brown;
+}
