@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
-import { fetchContacts } from './redux/contactsOps'
+import { fetchContacts } from './redux/operations'
 import { Container, ContactForm, ContactList, SearchBox } from './components'
 
 function App() {
