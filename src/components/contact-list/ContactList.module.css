@@ -24,10 +24,10 @@
 
 .noContacts {
   margin-top: 30px;
-  color: brown;
+  color: var(--cl-red-400);
 }
 
 .errorMessage {
   margin-top: 30px;
-  color: brown;
+  color: var(--cl-red-400);
 }

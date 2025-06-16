@@ -5,36 +5,38 @@
   width: 100%;
   max-width: 350px;
   padding: 15px 10px;
-  border: 1px solid gray;
+  border: 1px solid var(--cl-mid-gray);
   border-radius: 6px;
 }
 
 .inputField {
   padding: 8px 10px;
   margin-bottom: 10px;
-  border: 1px solid gray;
+  border: 1px solid var(--cl-mid-gray);
   border-radius: 6px;
 }
 
 .inputField:focus {
   outline: none;
-  border-color: blue;
+  border-color: var(--cl-accent-darken);
 }
 
 .addBtn {
   padding: 4px 8px;
-  background-color: rgb(178, 235, 178);
-  border: 1px solid rgb(123, 235, 123);
+  background-color: var(--cl-blue);
+  color: var(--cl-white);
+  padding: 10px 20px;
   border-radius: 6px;
   cursor: pointer;
+  transition: var(--trns-ease);
 }
 
 .addBtn:hover {
-  background-color: rgb(163, 247, 163);
+  background-color: var(--cl-light-blue);
 }
 
 .error {
-  color: red;
+  color: var(--cl-red-400);
   font-size: 12px;
   margin-top: -10px;
   margin-bottom: 10px;
