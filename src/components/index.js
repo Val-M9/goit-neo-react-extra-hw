@@ -1,5 +1,7 @@
-export { default as Container } from './container/Container'
+export { default as MainLayout } from './main-layout/MainLayout'
 export { default as SearchBox } from './search-box/SearchBox'
 export { default as ContactList } from './contact-list/ContactList'
 export { default as Contact } from './contact/Contact'
 export { default as ContactForm } from './contact-form/ContactForm'
+export { default as LoginForm } from './login-form/LoginForm'
+export { default as RegisterForm } from './register-form/RegisterForm'
